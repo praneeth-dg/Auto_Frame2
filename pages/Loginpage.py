@@ -8,7 +8,7 @@ class LoginPage():
 
         self.username_textbox_name = "username"
         self.password_textbox_name = "password"
-        self.submit_button_Xpath = "//button[@type='submit1']"
+        self.submit_button_Xpath = "//button[@type='submit']"
 
     def enter_username(self, username):
         self.driver.find_element(By.NAME,self.username_textbox_name).send_keys(username)
